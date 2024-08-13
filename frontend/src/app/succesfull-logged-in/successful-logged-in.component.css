@@ -1,0 +1,53 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Cormorant Garamond, helvetica, sans-serif;
+}
+
+li a:hover:not(.active) {
+  background-color: #FFC312;
+}
+
+.active {
+  background-color: #FFC312;
+}
+
+.btn {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background-color: #FFC312;
+}
+
+.enter-account-id {
+  margin: 30px;
+  font-size: 25px;
+}
+
+input {
+  height: 25px;
+}

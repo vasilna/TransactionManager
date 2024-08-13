@@ -3,7 +3,7 @@ Simple spring boot project for transactions and accounts with basic JWT authenti
 
 # How to run:
 
-1. Open backend folder with Intelij
+1. Open backend folder with IntelliJ IDEA
 
 2. Open workbench or other Mysql visual tool for database architect.
 
@@ -42,3 +42,25 @@ Simple spring boot project for transactions and accounts with basic JWT authenti
 7. The security is with httpBasic login and with jdbc authentication, the encryption of the password is with BcryptPasswordEncoder
 
 8. There are different roles and every one of them can have list of authorities.
+
+# TransactionManager frontend
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
+
+## How to run:
+
+1. Make sure backend is working first
+
+2. Open frontend folder with Visual Studio Code or IntelliJ IDEA
+
+3. Run npm install -g @angular/cli@13.0.4
+
+4. Run npm install file-saver
+ 
+5. Run ng serve
+ 
+7. Navigate to `http://localhost:4200/`
+
+8. First user is with username `vasko` and password `nasko` and have admin rights. That means he can access every functionality
+
+9. If user is not logged in or do not have permissions for some functionality the page will redirect you to another one where you can follow steps and login again.

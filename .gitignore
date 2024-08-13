@@ -13,11 +13,25 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
+### IDEs and editors ###
+*/.idea
 *.iws
 *.iml
 *.ipr
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
 
 ### NetBeans ###
 /nbproject/private/
@@ -31,3 +45,32 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# compiled output
+*/dist
+*/tmp
+*/out-tsc
+
+# Only exists if Bazel was run
+*/bazel-out
+
+# dependencies
+*/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+
+# misc
+*/.angular/cache
+*/.sass-cache
+*/connect.lock
+*/coverage
+*/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+*/typings
+
+# System Files
+.DS_Store
+Thumbs.db
